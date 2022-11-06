@@ -1,0 +1,26 @@
+str,en_US,zh_TW
+title,Hello,你好
+msg,Hello {} in the {} world,您好 {} 在 {} 世界
+msg_named,{} are written in the {lang} language,{} 以 {lang} 語言編寫
+clickMe,Click me,點我
+profile.reset_password.label,Reset Password,重設密碼
+profile.reset_password.username,Username,用戶名
+profile.reset_password.password,password,密碼
+clicked.zero,You clicked {} times!,您點擊了 {} 次！
+clicked.one,You clicked {} time!,您點擊了 {} 次！
+clicked.two,You clicked {} times!,您點擊了 {} 次！
+clicked.few,You clicked {} times!,您點擊了 {} 次！
+clicked.many,You clicked {} times!,您點擊了 {} 次！
+clicked.other,You clicked {} times!,您點擊了 {} 次！
+amount.zero,Your amount : {},您的金額：{}
+amount.one,Your amount : {},您的金額：{}
+amount.two,Your amount : {},您的金額：{}
+amount.few,Your amount : {},您的金額：{}
+amount.many,Your amount : {},您的金額：{}
+amount.other,Your amount : {},您的金額：{}
+gender.male,Hi man ;),餵伙計 ;）
+gender.female,Hello girl :),你好姑娘 ：）
+gender.with_arg.male,Hi man ;) {},餵伙計 ;） {}
+gender.with_arg.female,Hello girl :) {},你好姑娘 ：） {}
+reset_locale,Reset Saved Language,重置保存的語言
+supported_language,Supported language: {},支持的語言：{}
