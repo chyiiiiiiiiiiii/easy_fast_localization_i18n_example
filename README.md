@@ -12,7 +12,7 @@
 ## Package
 - easy_localization
 - easy_localization_loader
-- easy_localization_generator(My optimized version)
+- [easy_localization_generator(My optimized version)](https://github.com/chyiiiiiiiiiiii/easy_localization_generator)
 
 ## Optimization
 ``` dart
