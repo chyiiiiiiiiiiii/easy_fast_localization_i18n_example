@@ -34,7 +34,7 @@ class _HomePageState extends State<HomePage> {
           children: <Widget>[
             const Spacer(flex: 1),
             Text(
-              I18n.supportedLanguage.tr(args: [I18n.supportedLocales.length.toString()]),
+              I18n.supportedLanguage(language: I18n.supportedLocales.length.toString()),
               style: TextStyle(
                 color: Colors.grey.shade600,
                 fontSize: 19,
@@ -50,7 +50,8 @@ class _HomePageState extends State<HomePage> {
                 fontWeight: FontWeight.bold,
               ),
             ),
-            Text(I18n.clicked).plural(count),
+            Text(I18n.amount(count)),
+            Text(I18n.clicked(count, count: count.toString())),
             const Spacer(flex: 1),
           ],
         ),

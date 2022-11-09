@@ -6,43 +6,96 @@ part of 'i18n.dart';
 // LocalizationGenerator
 // **************************************************************************
 
-// Generated at: Fri, 04 Nov 2022 15:00:29 +08:00
+// Generated at: Wed, 09 Nov 2022 22:47:25 +08:00
 class I18n {
-  static const supportedLocales = [Locale('en', 'US'), Locale('zh', 'TW')];
+  static const supportedLocales = [
+    Locale('en', 'US'),
+    Locale('zh', 'TW'),
+    Locale('ar', 'DZ'),
+    Locale('de', 'DE'),
+    Locale('ru', 'RU'),
+    Locale('vi', 'VN')
+  ];
 
-  // amount
-  static String get amount => 'amount'.tr();
+  // title
+  static String get title => 'title'.tr();
 
   // clickMe
   static String get clickMe => 'clickMe'.tr();
-
-  // clicked
-  static String get clicked => 'clicked'.tr();
-
-  // gender
-  static String get gender => 'gender'.tr();
-  static String get genderWithArg => 'gender.with_arg'.tr();
-
-  // msg
-  static String get msg => 'msg'.tr();
-  static String get msgNamed => 'msg_named'.tr();
 
   // profile
   static String get profile => 'profile'.tr();
   static String get profileResetPassword => 'profile.reset_password'.tr();
   static String get profileResetPasswordLabel =>
       'profile.reset_password.label'.tr();
-  static String get profileResetPasswordPassword =>
-      'profile.reset_password.password'.tr();
   static String get profileResetPasswordUsername =>
       'profile.reset_password.username'.tr();
+  static String get profileResetPasswordPassword =>
+      'profile.reset_password.password'.tr();
+
+  // clicked
+  static String clicked(
+    int countForUnit, {
+    required dynamic count,
+  }) =>
+      'clicked'.plural(
+        countForUnit,
+        namedArgs: {
+          'count': count,
+        },
+      );
+
+  // amount
+  static String amount(
+    int countForUnit,
+  ) =>
+      'amount'.plural(
+        countForUnit,
+      );
+
+  // gender
+  static String get gender => 'gender'.tr();
+  static String genderWithArg({
+    required dynamic name,
+  }) =>
+      'gender.with_arg'.tr(
+        namedArgs: {
+          'name': name,
+        },
+      );
 
   // reset
   static String get resetLocale => 'reset_locale'.tr();
 
   // supported
-  static String get supportedLanguage => 'supported_language'.tr();
+  static String supportedLanguage({
+    required dynamic language,
+  }) =>
+      'supported_language'.tr(
+        namedArgs: {
+          'language': language,
+        },
+      );
 
-  // title
-  static String get title => 'title'.tr();
+  // msg
+  static String msg({
+    required dynamic name,
+    required dynamic type,
+  }) =>
+      'msg'.tr(
+        namedArgs: {
+          'name': name,
+          'type': type,
+        },
+      );
+
+  // hello
+  static String hello({
+    required dynamic name,
+  }) =>
+      'hello'.tr(
+        namedArgs: {
+          'name': name,
+        },
+      );
 }
