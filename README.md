@@ -10,9 +10,9 @@
 ![final](demo/final.gif)
 
 ## Package
-- easy_localization
-- easy_localization_loader
-- [easy_localization_generator(My optimized version)](https://github.com/chyiiiiiiiiiiii/easy_localization_generator)
+- [easy_localization](https://pub.dev/packages/easy_localization)
+- [easy_localization_loader](https://pub.dev/packages/easy_localization_loader)
+- [easy_localization_generator](https://pub.dev/packages/easy_localization_generator)
 
 ## Optimization
 ``` dart
