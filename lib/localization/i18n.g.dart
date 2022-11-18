@@ -6,7 +6,7 @@ part of 'i18n.dart';
 // LocalizationGenerator
 // **************************************************************************
 
-// Generated at: Wed, 09 Nov 2022 22:47:25 +08:00
+// Generated at: Fri, 18 Nov 2022 22:57:52 +08:00
 class I18n {
   static const supportedLocales = [
     Locale('en', 'US'),
@@ -41,7 +41,7 @@ class I18n {
       'clicked'.plural(
         countForUnit,
         namedArgs: {
-          'count': count,
+          'count': count.toString(),
         },
       );
 
@@ -60,7 +60,7 @@ class I18n {
   }) =>
       'gender.with_arg'.tr(
         namedArgs: {
-          'name': name,
+          'name': name.toString(),
         },
       );
 
@@ -73,7 +73,7 @@ class I18n {
   }) =>
       'supported_language'.tr(
         namedArgs: {
-          'language': language,
+          'language': language.toString(),
         },
       );
 
@@ -84,8 +84,8 @@ class I18n {
   }) =>
       'msg'.tr(
         namedArgs: {
-          'name': name,
-          'type': type,
+          'name': name.toString(),
+          'type': type.toString(),
         },
       );
 
@@ -95,7 +95,7 @@ class I18n {
   }) =>
       'hello'.tr(
         namedArgs: {
-          'name': name,
+          'name': name.toString(),
         },
       );
 }
